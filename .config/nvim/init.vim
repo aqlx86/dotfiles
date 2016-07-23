@@ -40,8 +40,10 @@ set expandtab
 set autoread
 
 set background=dark
-" set guifont=DejaVu\ Sans:s12
-set guifont=Roboto\ Mono\ Thin\ for\ Powerline:h14
+" set guifont=Roboto\ Mono\ Thin\ for\ Powerline:h14
+set guifont=Inconsolata\ for\ Powerline\ Medium:s10
+" set guifont=Source\ Code\ Pro\ for\ Powerline:s12
+" set guifont=Hack:s12
 
 set linespace=14
 set guioptions-=r
@@ -58,8 +60,10 @@ Plug 'vim-airline/vim-airline-themes'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='hybrid'
 let g:airline_powerline_fonts = 1
-let g:airline_left_sep = '█▓░'
-let g:airline_right_sep = '░▓█'
+" let g:airline_left_sep = '█▓░'
+let g:airline_left_sep = ''
+" let g:airline_right_sep = '░▓█'
+let g:airline_right_sep = ''
 
 Plug 'ervandew/supertab'
 Plug 'kien/ctrlp.vim'

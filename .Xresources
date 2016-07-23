@@ -1,0 +1,70 @@
+! Font settings
+URxvt.font: xft:Inconsolata for Powerline:medium:pixelsize=14:antialias=true:hinting=true
+URxvt.letterSpace: -1
+
+! Scrollbar
+URxvt.scrollBar: false
+!URxvt.scrollBar_right: true
+!URxvt.scrollstyle: plain
+!URxvt.scrollColor: #2d2d2d
+
+! Transparency
+URxvt.transparent: true
+URxvt.shading: 15 
+
+! Clickable links
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/chromium
+URxvt.matcher.button: 1
+
+! Colours
+URxvt.depth: 24
+
+xterm*iconName:Terminal
+xterm*eightBitInput:    false
+xterm*cursorBlink:      true
+xterm*faceName: Roboto Mono for Powerline
+xterm*cursorOffTime:    300
+xterm*metaSendsEscape:  true
+xterm*faceSize: 8
+xterm*Background:     #000000
+xterm*title:    Terminal
+xterm*cursorOnTime:     300
+xterm*utf8:     1
+xterm*Foreground:       #E6E6E6
+xterm*geometry: 110x31
+xterm*cursorUnderLine:  true
+Xft.antialias: 1
+Xft.autohint: 0
+Xft.dpi: 96
+Xft.hinting: 1
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
+Xft.rgba: rgb
+
+*background: #282828
+*foreground: #ebdbb2
+! Black + DarkGrey
+*color0: #282828
+*color8: #928374
+! DarkRed + Red
+*color1: #cc241d
+*color9: #fb4934
+! DarkGreen + Green
+*color2: #98971a
+*color10: #b8bb26
+! DarkYellow + Yellow
+*color3: #d79921
+*color11: #fabd2f
+! DarkBlue + Blue
+*color4: #458588
+*color12: #83a598
+! DarkMagenta + Magenta
+*color5: #b16286
+*color13: #d3869b
+! DarkCyan + Cyan
+*color6: #689d6a
+*color14: #8ec07c
+! LightGrey + White
+*color7: #a89984
+*color15: #ebdbb2
