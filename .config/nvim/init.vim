@@ -57,13 +57,11 @@ Plug 'vim-airline/vim-airline-themes'
 
 " Vim airline setup
 
-let g:airline#extensions#tabline#enabled = 1
-let g:airline_theme='hybrid'
-let g:airline_powerline_fonts = 1
-" let g:airline_left_sep = '█▓░'
-let g:airline_left_sep = ''
-" let g:airline_right_sep = '░▓█'
+let g:airline_left_sep = ''     
 let g:airline_right_sep = ''
+let g:airline_left_alt_sep = '|'
+let g:airline_right_alt_sep = '|'
+let g:airline#extensions#tabline#enabled = 1   
 
 Plug 'ervandew/supertab'
 Plug 'kien/ctrlp.vim'
@@ -102,8 +100,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'morhetz/gruvbox'
 Plug 'flazz/vim-colorschemes'       " all the colorschemes
 
-" colorscheme gruvbox
-colorscheme hybrid_material
+colorscheme gruvbox
 
 
 " ----------------------------------------------------------------------------
