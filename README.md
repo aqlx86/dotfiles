@@ -3,6 +3,14 @@
 + i3-gaps
 + neovim
 
+## Installation
 
-# Credits
+### Neovim
 
+* `:PlugInstall`
+* Create symlink, `ln -s ~/.config/nvim/plugged/vim-colorschemes/colors ~/.config/nvim/colors`
+
+
+## Credits
+
+[Remedan](https://github.com/Remedan/dotfiles)
