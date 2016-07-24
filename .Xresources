@@ -1,5 +1,6 @@
 ! Font settings
-URxvt.font: xft:Inconsolata for Powerline:medium:pixelsize=14:antialias=true:hinting=true
+! URxvt.font: xft:Inconsolata for Powerline:medium:pixelsize=14:antialias=true:hinting=true
+URxvt.font: xft:Inconsolata:medium:pixelsize=14:antialias=true:hinting=true
 URxvt.letterSpace: -1
 
 ! Scrollbar
