@@ -14,7 +14,3 @@
 
 ![screenshot1](https://raw.githubusercontent.com/aqlx86/dotfiles/master/screens/2016-07-24-175609_1920x1080_scrot.png)
 
-
-## Credits
-
-[Remedan](https://github.com/Remedan/dotfiles)
