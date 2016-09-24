@@ -1,0 +1,15 @@
+{
+	"color_scheme": "Packages/Theme - Toxin/Toxin.tmTheme",
+	"font_face": "Hack",
+	"font_size": 12,
+	"highlight_color_blue": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"tab_size": 4,
+	"theme": "Toxin.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}
+
