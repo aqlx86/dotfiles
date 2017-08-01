@@ -20,6 +20,8 @@ inoremap â <C-o>b
 inoremap æ <C-o>e<right>
 inoremap <F2> <c-o>:w<cr>								" save f2
 
+filetype plugin on
+
 " ----------------------------------------------------------------------------
 " Basic UI Configuration
 " ----------------------------------------------------------------------------
@@ -57,14 +59,18 @@ Plug 'vim-airline/vim-airline-themes'
 
 " Vim airline setup
 
-let g:airline_left_sep = ''     
+let g:airline_left_sep = ''
 let g:airline_right_sep = ''
 let g:airline_left_alt_sep = '|'
 let g:airline_right_alt_sep = '|'
-let g:airline#extensions#tabline#enabled = 1   
+let g:airline#extensions#tabline#enabled = 1
 
 Plug 'ervandew/supertab'
 Plug 'kien/ctrlp.vim'
+
+" ctrlp 
+let g:ctrlp_max_files=0
+
 Plug 'mhinz/vim-startify'
 
 " ----------------------------------------------------------------------------
@@ -94,6 +100,17 @@ nnoremap <F9> :NERDTreeFind<CR>
 
 Plug 'jiangmiao/auto-pairs'
 
+Plug 'vim-syntastic/syntastic'
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+
 " ----------------------------------------------------------------------------
 " Colors Themes
 " ----------------------------------------------------------------------------
@@ -101,7 +118,6 @@ Plug 'morhetz/gruvbox'
 Plug 'flazz/vim-colorschemes'       " all the colorschemes
 
 colorscheme gruvbox
-
 
 " ----------------------------------------------------------------------------
 " Source Cotrol Management Plugins
